@@ -1,0 +1,256 @@
+.table_container caption{
+	color: #6777ef;
+}
+
+.table_container{
+	border: 0;
+	background-color:white;
+	border-radius: 3px;
+	border-collapse: collapse;
+	width:100%;
+	/*box-shadow: 0px 2px 0px 2px #dcdada;*/
+}
+
+.table_container thead tr.header td{
+	color: #6777ef;
+	font-size: 12pt;
+	font-weight: 700;
+	padding: 15px;
+}
+
+#typeB thead tr td .search{
+	margin-bottom: 10px;
+    padding: 5px 5px;
+    width: 98%;
+    font-size: 12px;
+    border: 1px solid #ddd;
+	outline: none;
+	margin: 0 5px;
+}
+
+.table_container thead tr td .search{
+	margin-bottom: 10px !important;
+    padding: 10px 10px;
+    width: 97.5%;
+    font-size: 13px;
+    border: 1px solid #ddd;
+	outline: none;
+	margin: 0 5px;
+}
+
+.table_container thead tr td #myInput:focus{
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.table_container thead tr.header .Addbtn button:disabled{
+	outline: none;
+    border: 0;
+    float: right;
+    padding: 10px;
+    color: white;
+    background: #767ba0;
+    border-radius: 8px;
+	font-weight: 700;
+	text-decoration: none;
+	cursor: default;
+}
+
+.table_container thead tr.header .Addbtn button:disabled:hover{
+	background: #767ba0;
+	transition: 0.5s;
+}
+
+.table_container thead tr.header .Addbtn a,
+.table_container thead tr.header .Addbtn button{
+	outline: none;
+    border: 0;
+    cursor: pointer;
+    float: right;
+    padding: 10px;
+    color: white;
+    background: #6777ef;
+    border-radius: 8px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+
+.table_container thead tr.header .Addbtn a:hover,
+.table_container thead tr.header .Addbtn button:hover{
+	background: #394eea;
+	transition: 0.5s;
+}
+
+.table_container thead tr.header .Addbtn a span,
+.table_container thead tr.header .Addbtn button span{
+	vertical-align: bottom;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0 2px 0 0;
+}
+
+.table_container thead tr.header-bar th,
+.table_container .header-bar td{
+	/* background-color: #eaecf4; */
+	color: #454545;
+	font-size: 11pt;
+	border: 0;
+	/* border-bottom: 1pt solid #f2f3f8; */
+	text-align: left;
+	padding: 5px 15px;
+	border-bottom: 3px solid #f7f7f7;
+	border-top: 1px solid #f7f7f7;
+}
+
+.table_container .header-bar td{
+	text-align: right;
+	font-weight: 700;
+}
+
+.table_container .row-btn{
+	outline: none;
+    border: 0;
+    background: #4CAF50;
+    padding: 0;
+    border-radius: 2px;
+	box-shadow: grey 0px 0px 5px 0px;
+	cursor:pointer;
+}
+
+.table_container .del-row-btn,
+.table_container .update-row-btn{
+	outline: none;
+    border: 0;
+    background: #fc544b;
+    padding: 0;
+    border-radius: 2px;
+	box-shadow: grey 0px 0px 5px 0px;
+	cursor:pointer;
+}
+
+.table_container .row-btn .material-icons{
+	font-size: 13pt;
+	font-weight: 900;
+	color: white;
+}
+
+.table_container thead tr.header-bar th .sort_position{
+	float: right;
+	cursor: pointer;
+}
+
+
+.table_container thead tr.header-bar th .sort_position span{
+	color: rgb(123, 123, 123);
+    font-size: 25px;
+    padding: 0;
+	margin: 0;
+}
+
+.table_container .table_content td,
+.table_container .concert_table_content td{
+	padding: 15px;
+    font-size: 10pt;
+    /* font-weight: 600; */
+    /* color: #959595; */
+	border-bottom: 1pt solid #f2f3f8;
+	border-right: 1pt solid #f2f3f8;
+}
+
+.table_container .table_content tr:hover{
+	background-color: #f7f7f7;
+}
+
+.table_container thead tr.header-bar span{
+	color: white;
+	border-radius: 5px;
+	font-size: 9pt;
+	font-weight: 700;
+	padding: 3px;
+}
+
+.table_container .table_content .action_button a{
+	background: none;
+	border: none;
+	font-weight: 600;
+    padding: 0 5px;
+	margin: 0;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	color: #454545;
+}
+
+.table_container .table_content .action_button a:hover{
+	color: #3f89e7;
+	transition: 0.3s;
+}
+
+.table_container span.Hlight_complete{
+	background-color: #66bb6a;
+}
+
+.table_container span.Hlight_pending{
+	background-color: #fc544b;
+	
+}
+
+.table_container span.Hlight_ship{
+	background-color: #ffa323;
+}
+
+.table_container span.Hlight_process{
+	background-color: #2d8eba;
+}
+
+.table_container div.btn{
+	background-color: #6777ef;
+	padding: 6px;
+	float: left;
+	width: 50px;
+	margin-right:5px;
+	text-align: center;
+	border-radius: 5px;
+	/*box-shadow: 0px 3px 0px 0px #dcdada;*/
+}
+
+.table_container div.btn a{
+	text-decoration: none;
+	color: white;
+}
+
+.table_container div.btn:hover{
+	background-color: #394eea;
+	transition-duration: 1s;
+}
+
+
+/*Sales Report Property*/
+.print_content .table_container thead th{
+	padding: 1% !important;
+	color:black !important;
+}
+
+.print_content .table_container tbody td{
+	padding: 1% !important;
+	font-size: 15px !important;
+	color:black !important;
+}
+
+.print_content .table_container .total_dis{
+	text-align:right; 
+	font-weight:700; 
+	font-size:15px;
+}
+
+.print_content .table_container .total_revenue{
+	font-weight:900; 
+	text-decoration:underline; 
+	text-decoration-style: double; 
+	font-size:15px;
+}
+
+table.merch tbody tr td{
+	font-size: 14px !important;
+	padding: 5px 15px !important;
+}

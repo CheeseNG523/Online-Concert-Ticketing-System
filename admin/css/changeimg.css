@@ -1,0 +1,152 @@
+.modal .wrapper,
+.page_form .wrapper-short,
+.page_form .wrapper-long,
+.page_form .wrapper-location{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+.modal .wrapper .active,
+.page_form .wrapper-short .active,
+.page_form .wrapper-long .active,
+.page_form .wrapper-location .active{
+    border: none;
+}
+
+.modal .wrapper .image,
+.page_form .wrapper-short .image-short,
+.page_form .wrapper-long .image-long,
+.page_form .wrapper-location .image-location{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .wrapper img,
+.page_form .wrapper-short img,
+.page_form .wrapper-long img,
+.page_form .wrapper-location img
+{
+    object-fit: cover;
+    display: none;
+}
+
+.modal .wrapper img{
+    height: 100%;
+    width: 100%;
+}
+
+.page_form .wrapper-short img{
+    height: 100%;
+    width: 50%;
+}
+
+.page_form .wrapper-long img{
+    height: 100%;
+    width: 100%;
+}
+
+.page_form .wrapper-location img{
+    height: 100%;
+    width: 100%;
+}
+
+.modal .wrapper .icon,
+.page_form .wrapper-short .icon,
+.page_form .wrapper-long .icon,
+.page_form .wrapper-location .icon{
+    font-size: 100px;
+    color: #9658fe;
+    text-align: center;
+}
+
+.modal .wrapper .text,
+.page_form .wrapper-short .text,
+.page_form .wrapper-long .text,
+.page_form .wrapper-location .text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5B5B7B;
+}
+
+.modal .wrapper #cancel-btn i,
+.page_form .wrapper-short #cancel-btn-short i,
+.page_form .wrapper-long #cancel-btn-long i,
+.page_form .wrapper-location #cancel-btn-location i{
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 15px;
+    color: #9658fe;
+    cursor: pointer;
+    display: none;
+}
+
+.modal .wrapper.active:hover #cancel-btn i,
+.page_form .wrapper-short.active:hover #cancel-btn-short i,
+.page_form .wrapper-long.active:hover #cancel-btn-long i,
+.page_form .wrapper-location.active:hover #cancel-btn-location i{
+    display: block;
+}
+  
+.modal .wrapper #cancel-btn i:hover,
+.page_form .wrapper-short #cancel-btn-short i:hover,
+.page_form .wrapper-long #cancel-btn-long i:hover,
+.page_form .wrapper-location #cancel-btn-location i:hover{
+    color: #e74c3c;
+}
+  
+.modal .wrapper .file-name,
+.page_form .wrapper-short .file-name-short,
+.page_form .wrapper-long .file-name-long,
+.page_form .wrapper-location .file-name-location{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    color: #fff;
+    display: none;
+    background: linear-gradient(135deg,#3a8ffe 0%,#9658fe 100%);
+}
+  
+.modal .wrapper.active:hover .file-name,
+.page_form .wrapper-short.active:hover .file-name-short,
+.page_form .wrapper-long.active:hover .file-name-long,
+.page_form .wrapper-location.active:hover .file-name-location{
+    display: block;
+}
+
+.modal #custom-btn,
+.page_form #custom-btn-short,
+.page_form #custom-btn-long,
+.page_form #custom-btn-location{
+    padding: 10px 18px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    text-align: center;
+}
+
+.modal #custom-btn{
+    margin-top: 10px;
+}
+
+.page_form #custom-btn-short,
+.page_form #custom-btn-long,
+.page_form #custom-btn-location{
+    margin-top: 5px;
+}

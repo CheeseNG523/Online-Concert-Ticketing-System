@@ -1,0 +1,377 @@
+.comment {
+	clear: both;
+	/* box-shadow: 0 0 5px 5px rgb(245 245 245); */
+	padding: 30px;
+}
+
+.comment .comment_title {
+	font-family: 'Quicksand', sans-serif; 
+	font-weight: 700; 
+	font-size: 1.5em;
+}
+
+.comment .rating-container{
+	padding: 15px 0;
+	border-bottom: 1px solid #dadada;
+	overflow-x: auto;
+}
+
+.comment .rating-container .cust-img{
+	float: left;
+}
+
+.comment .rating-container .cust-name-star{
+	float: left;
+    padding: 6px;
+}
+
+.comment .rating-container .cust-name{
+	padding-left: 8px;
+}
+
+.comment .rating-container .cust-name a{
+    text-decoration: none;
+    color: black;
+}
+
+.comment .rating-container .cust-name a:hover{
+    color: rgb(119, 119, 255);
+}
+
+.comment span span,
+.comment .rating-container .cust-name-star .star-icon{
+    color: #faca51;
+    cursor: default;
+    margin-left: 5px;
+}
+
+.comment .rating-container .cust-name-star .star-text{
+    color: black;
+    font-size: 12px;
+    vertical-align: super;
+    margin-left: 10px;
+}
+
+.comment .rating-container .cust-img img{
+	width: 55px;
+    height: auto;
+    border-radius: 100px;
+    vertical-align: middle;
+    min-width: auto;
+}
+
+.comment .rating-container .cust-comment{
+	clear: both;
+    margin-left: 70px;
+    padding: 10px 5px;
+}
+
+.comment .rating-container .cust-rating-img{
+    margin-left: 70px;
+	margin-top: 10px;
+	clear: both;
+}
+
+.comment .rating-container .cust-rating-img img{
+	max-width: 12%;
+    height: auto;
+    vertical-align: bottom;
+    min-width: auto;
+}
+
+.display-none{
+    display: none;
+}
+
+.comment .status-container{
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 20px 0;
+    background-color: white;
+}
+
+.comment .status-container .rating-result{
+	float: left;
+	cursor: default;
+	color: #ff8d00;
+	padding: 20px;
+}
+
+.comment .status-container .status-conatiner-bar .category_tab {
+    color: black;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+.comment .status-container .rating-result .rating{
+	color: #ff8d00;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.comment .status-container .rating-result .star{
+	margin: 10px 0;
+}
+
+.comment .status-container .rating-result .star span{
+	margin-right: 5px;
+}
+
+.comment .status-container .rating-result .rating span{
+	font-size: 35px;
+}
+
+.comment .status-container .status-conatiner-bar{
+    margin: 10px 10px;
+    width: 10%;
+    font-size: 15px;
+    padding: 10px;
+    padding-bottom: 7px;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    font-weight: 500;
+    border: 1px solid #ccc;
+}
+
+.comment .status-container .status-conatiner-bar:hover{
+    border: 1px solid rgb(119, 119, 255);
+}
+
+.comment .status-container .left{
+    float: left;
+}
+
+/* .comment .status-container .right{
+    float: right;
+} */
+
+.comment .status-container .status-conatiner-bar:hover{
+    color: rgb(119, 119, 255);
+    cursor: pointer;
+}
+
+.comment .status-container .active{
+    color: rgb(119, 119, 255);
+    border: 1px solid rgb(119, 119, 255);
+    cursor: default;
+}
+
+.comment .status-container .active .category_tab {
+	color: rgb(119, 119, 255);
+}
+
+/* Modal Content/Box */
+.preimg-admin .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.preimg-admin .close:hover,
+.preimg-admin .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.preimg-admin .pic-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.preimg-admin .pic-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    width: 30%; /* Could be more or less, depending on screen size */
+    text-align: left;
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+  }
+  
+  .preimg-admin .form-container {padding: 20px;}
+  
+  .preimg-admin .form-container .page{
+      width: 100%;
+      transition: 0.5s ease-in-out;
+  }
+  
+  .preimg-admin .pic-modal-content .wrapper {
+      position: relative;
+      height: 350px;
+      width: 100%;
+      border-radius: 10px;
+      background: #fff;
+      border: 2px dashed #c2cdda;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+  
+    .preimg-admin .pic-modal-content .wrapper .active {
+      border: none;
+  }
+  
+  .preimg-admin .pic-modal-content .wrapper .image {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .preimg-admin .pic-modal-content .wrapper img {
+      object-fit: cover;
+      display: none;
+  }
+  
+  .preimg-admin .pic-modal-content .wrapper img{
+      height: 100%;
+      width: 100%;
+  }
+  
+  .preimg-admin .pic-modal-content .wrapper .icon {
+      font-size: 100px;
+      color: #9658fe;
+      text-align: center;
+  }
+  
+  .preimg-admin .pic-modal-content .wrapper .text {
+      font-size: 20px;
+      font-weight: 500;
+      color: #5B5B7B;
+  }
+  
+  .preimg-admin .pic-modal-content .wrapper #cancel-btn i {
+      position: absolute;
+      font-size: 20px;
+      right: 15px;
+      top: 15px;
+      color: #9658fe;
+      cursor: pointer;
+      display: none;
+  }
+  
+  .preimg-admin .pic-modal-content .wrapper.active:hover #cancel-btn i {
+      display: block;
+  }
+    
+  .preimg-admin .pic-modal-content .wrapper #cancel-btn i:hover {
+      color: #e74c3c;
+  }
+    
+  .preimg-admin .pic-modal-content .wrapper .file-name {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      font-size: 18px;
+      color: #fff;
+      display: none;
+      background: linear-gradient(120deg, rgba(190,190,255,1) 29%, rgba(0,212,255,1) 100%);
+  }
+    
+  .preimg-admin .pic-modal-content .wrapper.active:hover .file-name {
+      display: block;
+  }
+  
+  .preimg-admin .pic-modal-content #custom-btn {
+      padding: 10px 18px;
+      background-color: #3f89e7;
+      color: white;
+      outline: none;
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      border-radius: 4px;
+  }
+  
+  .preimg-admin .img_submit {
+      width: 44.4%;
+      padding: 10px 18px;
+      background-color: #3f89e7; 
+      border: none;
+      border-radius: 4px;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      outline: none;
+      margin: 10px 5%;
+      cursor: pointer;
+  }
+  
+  .preimg-admin .cancelbtn {
+      width: 44.4%;
+      padding: 10px 18px;
+      background-color: #f44336;
+      border: none;
+      border-radius: 4px;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      outline: none;
+      margin: 10px 5%;
+      cursor: pointer;
+  }
+  
+  .preimg-admin .img_submit:hover, .pic-modal-content #custom-btn:hover {
+      cursor: pointer;
+      background-color: rgba(190,190,255,1);
+      color: white;
+      transition-duration: 0.4s;
+  }
+  
+  .preimg-admin .cancelbtn:hover {
+      cursor: pointer;
+      background-color: salmon;
+      color: white;
+      transition-duration: 0.4s;
+  }
+  
+  .preimg-admin .tooltip {
+      position: relative;
+      width: 80%;
+      border-radius: 5em; 
+      height: 150px;
+      margin: auto;
+  }
+  
+  .preimg-admin .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 200px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+      top: 35%;
+      left: 110%;
+  }
+  
+  /* when hover window is visible */
+  .preimg-admin .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 100%;
+      margin-top: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent black transparent transparent;
+  }
+  
+  .preimg-admin .tooltip:hover .tooltiptext {
+      visibility: visible;
+  }

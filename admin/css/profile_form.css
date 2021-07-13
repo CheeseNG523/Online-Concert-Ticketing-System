@@ -1,0 +1,311 @@
+.modal .page,
+.page_form .page{
+    width: 100%;
+    transition: margin-left 0.5s ease-in-out;
+}
+
+.modal .page div.title,
+.page_form .page div.title{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #3f89e7;
+    font-size: 20px;
+}
+
+.modal .page div.title_sub,
+.page_form .page div.title_sub{
+	text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #3f89e7;
+	font-size: 15px;
+}
+
+.modal .page .txt_field,
+.selection-detail form .txt_field{
+	position:relative;
+    margin: 30px 0;
+    display: flex;
+}
+
+.page_form .page .txt_field,
+.selection-detail form .txt_field{
+	position:relative;
+    margin: 40px 0;
+    display: flex;
+}
+
+.modal .page .password_visible,
+.page_form .page .password_visible{
+    position: relative;
+    border: 1px solid grey;
+    border-radius:0px 5px 5px 0;
+    top: -0px;
+    margin: 0;
+}
+
+.modal .page .password_visible input[type = "checkbox"],
+.page_form .page .password_visible input[type = "checkbox"]{
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    width: 17.5px;
+    height: 17.5px;
+    margin: 3px 3px;
+    padding: 0;
+    top: 2.5px;
+}
+
+.modal .page .icon-box2,
+.page_form .page .icon-box2{
+    display: none;
+}
+
+.modal .page .icon-box2, 
+.modal .page .icon-box1,
+.page_form .page .icon-box2, 
+.page_form .page .icon-box1{
+    padding-top: 2px;
+    padding-right: 0.5px;
+}
+
+.modal .page .password_visible input[type = "checkbox"]:checked ~ .icon-box2,
+.page_form .page .password_visible input[type = "checkbox"]:checked ~ .icon-box2{
+    display: block;
+}
+
+.modal .page .password_visible input[type = "checkbox"]:checked ~ .icon-box1,
+.page_form .page .password_visible input[type = "checkbox"]:checked ~ .icon-box1{
+    display: none;
+}
+
+.modal .add_modal,
+.page_form .add_modal{
+    width:60%;
+}
+
+.modal form .textinput, 
+.modal form input[type="password"], 
+.modal form .checking_phone,
+.modal form .checking_email,
+.modal form .checking_new_email,
+.modal form input[type="date"],
+.modal form input[type="text"],
+.modal form input[type="email"],
+.modal form select, 
+.modal form .checking_password, 
+.modal form .checking_cpassword,
+.modal form .checking_old_password,
+.modal form .checking_new_password,
+.modal form .checking_new_cpassword,
+.modal form .checking_admin_email,
+.modal form .checking_admin_fname,
+.modal form .checking_admin_lname,
+.page_form form .textinput, 
+.page_form form input[type="password"],
+.page_form form input[type="text"],
+.page_form form input[type="number"], 
+.page_form form .checking_phone,
+.page_form form .checking_email,
+.page_form form .checking_new_email,
+.page_form form input[type="date"],
+.page_form form input[type="datetime-local"],
+.page_form form select, 
+.page_form form .checking_password, 
+.page_form form .checking_cpassword,
+.page_form form .checking_old_password,
+.page_form form .checking_new_password,
+.page_form form .checking_new_cpassword,
+.page_form form .view_desc,
+.selection-detail form input{
+	width: 100%;
+	padding: 0 5px;
+	height: 30px;
+	font-size:15px;
+	outline: none;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.modal form textarea,
+.page_form form textarea{
+    width: 100%;
+	padding: 5px 5px;
+    font-size:15px;
+	outline: none;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.modal form select,
+.page_form form select,
+form select{
+    height: 32px;
+}
+
+.modal select[disabled],
+.page_form select[disabled]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    text-align-last:center;
+}
+
+.modal form .checking_password, 
+.model form .checking_cpassword,
+.page_form form .checking_password, 
+.page_form form .checking_cpassword{
+    border-radius: 5px 0 0 5px;
+    border-right: transparent;
+}
+
+.modal .txt_field label,
+.page_form .txt_field label,
+.selection-detail form .txt_field label{
+	position: absolute;
+	top: 8px;
+	left:10px;
+	color:#adadad;
+	font-size: 0.9rem;
+	transition: .5s;
+}
+
+.modal .txt_field input ~ label,
+.modal .txt_field select ~ label,
+.modal .txt_field textarea ~ label,
+.page_form .txt_field input ~ label,
+.page_form .txt_field select ~ label,
+.page_form .txt_field textarea ~ label,
+.page_form form .view_desc ~ label,
+.selection-detail form .txt_field input ~ label{
+	top: -6px;
+	font-size: .8rem;
+	font-weight: 700;
+	color: #2697d9;
+	background: white;
+	padding: 0px 3px;
+}
+
+.page_form form .txt_field label,
+.selection-detail form .txt_field label{
+    top: -8px;
+	font-size: .9rem;
+	font-weight: 700;
+	color: rgb(83, 83, 83);
+	background: white;
+    padding: 0px 3px;
+}
+
+.page_form form .txt_field label span{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.page_form form .view_desc{
+    overflow: auto;
+}
+
+.modal .txt_field input:focus,
+.modal .txt_field select:focus,
+.page_form .txt_field input:focus,
+.page_form .txt_field select:focus,
+.selection-detail form .txt_field input:focus{
+  	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+#message,
+#message1{
+    display: none;
+    width: 270px;
+    background-color:rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    padding: 5px 0;
+    z-index: 1;
+    top: 37%;
+    left: 65%;
+    position: absolute;
+    padding: 10px;
+}
+
+#message label,
+#message1 label{
+    display: block;
+    padding: 2.5px 0;
+}
+
+#message label span,
+#message1 label span{
+    font-size: 15px;
+    padding: -.1px 2.5px; 
+}
+
+.tooltiptext::after{
+    content: '';
+	height: 0;
+	width: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	top: 40px;
+	left: -20px;
+    border-right: 20px solid rgba(0, 0, 0, 0.7);
+}
+
+/*Alert box*/
+.modal .alert,
+.page_form .alert{
+    border-radius: 5px;
+    text-align: left;
+    background-color: #f44336;
+    color: white;
+    opacity: 0;
+}
+
+.modal .alert{
+    padding: 5px 10px;
+}
+
+.page_form .alert{
+    padding: 5px 10px 10px 10px;
+}
+
+.modal .alert label,
+.page_form .alert label{
+    font-size: 13px;
+}
+
+.content .page_form{
+    background: white;
+    border-radius: 3px;
+}
+
+.page_form .back-to-prev{
+    color: #b6b6b6;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.page_form .back-to-prev span{
+    vertical-align: initial;
+    font-size: 15px;
+}
+
+.page_form .back-to-prev:hover{
+    transition: 0.5s;
+    color: black;
+}

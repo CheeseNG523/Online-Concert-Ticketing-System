@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(190,190,255,1) 29%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    width: 330px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 35px 10px 35px;
+    overflow: hidden;
+}
+
+.container .form-outer{
+    width: 100%;
+    overflow: hidden;
+}
+
+.form-outer form{
+    display: flex;
+    width: 100%;
+}
+
+.form-outer form .page{
+    width: 100%;
+    transition: margin-left 0.5s ease-in-out;
+}
+
+div.title{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #3f89e7;
+    font-size: 20px;
+}
+
+div.title_sub{
+	text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #3f89e7;
+	font-size: 15px;
+}
+
+form .page .txt_field{
+	position:relative;
+    margin: 30px 0;
+    display: flex;
+}
+
+.password_visible{
+    position: relative;
+    border: 1px solid grey;
+    border-radius:0px 5px 5px 0;
+    top: -0px;
+    margin: 0;
+}
+
+.password_visible input[type = "checkbox"]{
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    width: 17.5px;
+    height: 17.5px;
+    margin: 3px -9px;
+    padding: 0;
+    top: 2.5px;
+}
+
+.icon-box2{
+    display: none;
+}
+
+.icon-box2, .icon-box1{
+    padding-top: 2px;
+    padding-right: 0.5px;
+}
+
+.password_visible input[type = "checkbox"]:checked ~ .icon-box2{
+    display: block;
+}
+.password_visible input[type = "checkbox"]:checked ~ .icon-box1{
+    display: none;
+}
+
+form .textinput, input[type="password"], .checking_phone ,.checking_email, input[type="date"], select, form .checking_password, form .checking_cpassword{
+	width: 100%;
+	padding: 0 5px;
+	height: 30px;
+	font-size:15px;
+	outline: none;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+form select{
+    height: 32px;
+}
+
+select[disabled]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    text-align-last:center;
+}
+
+form .checking_password, form .checking_cpassword{
+    border-radius: 5px 0 0 5px;
+    border-right: transparent;
+}
+
+.txt_field label{
+	position: absolute;
+	top: 8px;
+	left:35px;
+	color:#adadad;
+	font-size: 0.9rem;
+	transition: .5s;
+}
+
+.txt_field input ~ label,
+.txt_field select ~ label{
+	top: -6px;
+	font-size: .8rem;
+	font-weight: 700;
+	color: #2697d9;
+	background: white;
+	padding: 0px 3px;
+}
+
+.txt_field input:focus,
+.txt_field select:focus{
+  	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.page .button_field button{
+    margin: 0 auto;
+    width: 100px;
+	background: white;
+	border-radius: 8px;
+	color: black;
+	height: 35px;
+	outline: none;
+	cursor: pointer;
+	opacity: 0.9;
+	font-weight: 700;
+	border: 2px solid rgba(0,219,222,1);
+	box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.26);
+}
+
+.step-row{
+	width: 400px;
+	height: 40px;
+	margin: 0 -35px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0px 5px -2px #000;
+	position: relative;
+}
+
+.step-block{
+	width: 120px;
+	text-align: center;
+	color: black;
+	font-weight: 700;
+	position: relative;
+}
+
+#progress-bar{
+	position: absolute;
+	height: 100%;
+	width: 100px;
+	background: rgb(134,237,134);
+	background: linear-gradient(270deg, rgba(134,237,134,1) 35%, rgba(255,255,255,1) 100%);
+	transition: 1s;
+}
+
+#progress-bar::after{
+	content: '';
+	height: 0;
+	width: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	top: 0;
+	right: -20px;
+    border-left: 20px solid rgba(134,237,134,1);
+}
+
+#message{
+    display: none;
+    width: 270px;
+    background-color:rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    padding: 5px 0;
+    z-index: 1;
+    top: 49%;
+    left: 65%;
+    position: absolute;
+    padding: 10px;
+}
+
+#message label{
+    display: block;
+    padding: 2.5px 0;
+}
+
+#message label span{
+    font-size: 15px;
+    padding: -.1px 2.5px; 
+}
+
+.tooltiptext::after{
+    content: '';
+	height: 0;
+	width: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	top: 40px;
+	left: -20px;
+    border-right: 20px solid rgba(0, 0, 0, 0.7);
+}
+
+/*Alert box*/
+.alert{
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    opacity: 0;
+}
+  
+.closebtn {
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.alert label{
+    font-size: 13px;
+}
