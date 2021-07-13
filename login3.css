@@ -1,0 +1,157 @@
+body {
+    background: rgb(190,190,255);
+    background: linear-gradient(0deg, rgba(190,190,255,1) 29%, rgba(0,212,255,1) 100%);
+}
+    
+.loginbox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: white;
+    width: 24%;
+    height: 62%;
+    border-radius: 8px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+form {
+    margin-top: -20px;
+    overflow: auto;
+    padding: 25px 25px;
+}
+
+input {
+    width: 85%;
+    padding: 10px;
+    margin-left: 8px;
+    border: 1px solid #3f89e7;
+    border-radius: 4px;
+    float: left;
+    outline: none;
+}
+
+input[type="submit"] {
+    appearance: none;
+    display: inline-block;
+    width: 95%;
+    background-color: #3f89e7;
+    color: white;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(190,190,255,1);
+    color: white;
+    border-color: rgba(190,190,255,1);
+}
+
+input:hover {
+    cursor: auto;
+    border: 1px solid purple;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+input[type="email"], [type="password"]:active {
+    cursor: auto;
+}
+
+.error {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 10px 40px;
+    font-size: 10pt; 
+    color: red;
+}
+
+.error_captcha {
+    display: inline-block; 
+    font-family: sans-serif; 
+    font-weight: bold; 
+    margin: 3px 0px 10px 10px; 
+    font-size: 10pt; 
+    color: red;
+}
+
+form i {
+    font-size: 100px;
+    color: #3f89e7;
+    float: left;
+    margin-right: 0px;
+}
+
+p {
+    font-size: 12pt;
+    font-family: sans-serif;
+    margin: 0px;
+    color: rgb(82, 82, 82);
+}
+
+.reg_msg {
+    display: block;
+    position: fixed;
+    margin-top: 50px;
+    bottom: 15;
+}
+
+.forgot_password {
+    display: block;
+    position: fixed;
+    margin-top: 50px;
+    bottom: 40;
+    font-family: sans-serif;
+}
+
+.password_visible{
+    position: relative;
+    display: inline-block;
+    border: 1px solid #3f89e7;
+    border-radius: 0px 5px 5px 0;
+    padding-top: 5px;
+    padding-bottom: 4.5px;
+}
+
+.password_visible input[type = "checkbox"]{
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    width: 17.5px;
+    height: 17.5px;
+    padding: 0;
+    top: 2.5px;
+}
+
+.icon-box2{
+    display: none;
+}
+
+.icon-box2, .icon-box1{
+    padding-top: 2px;
+    padding-right: 0.5px;
+}
+
+.icon-box2:hover, .icon-box1:hover{
+    cursor: pointer;
+}
+
+.password_visible input[type = "checkbox"]:checked ~ .icon-box2{
+    display: block;
+}
+.password_visible input[type = "checkbox"]:checked ~ .icon-box1{
+    display: none;
+}

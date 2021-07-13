@@ -1,0 +1,247 @@
+.profile-container div {
+    line-height: 2;
+}
+
+.profile-sidebar {
+    padding: 30px;
+    border-right: 1px solid rgba(153, 102, 153, 0.2);
+}
+    
+.profile-sidebar a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+}
+
+.profile-sidebar a.active {
+    color: rgb(119, 119, 255);
+    pointer-events: none;
+}
+
+.profile-sidebar a:hover {
+    color: rgb(119, 119, 255);
+}
+
+.profile-sidebar p {
+    color: black;
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.profile-sidebar i {
+    vertical-align: sub;
+    margin-right: 10px;
+}
+
+.prof_pic {
+    width: 150px; 
+    height: 150px; 
+    margin: auto;
+    border-radius: 5em;
+}
+
+.prof_pic:hover {
+    filter: brightness(60%);
+    cursor: pointer;
+}
+
+.pic-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.pic-modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  width: 30%; /* Could be more or less, depending on screen size */
+  text-align: left;
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+.form-container {padding: 20px;}
+
+.form-container .page{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.pic-modal-content .wrapper {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+.pic-modal-content .wrapper .active {
+    border: none;
+}
+
+.pic-modal-content .wrapper .image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic-modal-content .wrapper img {
+    object-fit: cover;
+    display: none;
+}
+
+.pic-modal-content .wrapper img{
+    height: 100%;
+    width: 100%;
+}
+
+.pic-modal-content .wrapper .icon {
+    font-size: 100px;
+    color: #9658fe;
+    text-align: center;
+}
+
+.pic-modal-content .wrapper .text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #5B5B7B;
+}
+
+.pic-modal-content .wrapper #cancel-btn i {
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 15px;
+    color: #9658fe;
+    cursor: pointer;
+    display: none;
+}
+
+.pic-modal-content .wrapper.active:hover #cancel-btn i {
+    display: block;
+}
+  
+.pic-modal-content .wrapper #cancel-btn i:hover {
+    color: #e74c3c;
+}
+  
+.pic-modal-content .wrapper .file-name {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    display: none;
+    background: linear-gradient(120deg, rgba(190,190,255,1) 29%, rgba(0,212,255,1) 100%);
+}
+  
+.pic-modal-content .wrapper.active:hover .file-name {
+    display: block;
+}
+
+.pic-modal-content #custom-btn {
+    padding: 10px 18px;
+    background-color: #3f89e7;
+    color: white;
+    outline: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.img_submit {
+    width: 44.4%;
+    padding: 10px 18px;
+    background-color: #3f89e7; 
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    outline: none;
+    margin: 10px 5%;
+    cursor: pointer;
+}
+
+.cancelbtn {
+    width: 44.4%;
+    padding: 10px 18px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    outline: none;
+    margin: 10px 5%;
+    cursor: pointer;
+}
+
+.img_submit:hover, .pic-modal-content #custom-btn:hover {
+    cursor: pointer;
+    background-color: rgba(190,190,255,1);
+	color: white;
+	transition-duration: 0.4s;
+}
+
+.cancelbtn:hover {
+    cursor: pointer;
+    background-color: salmon;
+	color: white;
+	transition-duration: 0.4s;
+}
+
+.tooltip {
+    position: relative;
+    width: 80%;
+    border-radius: 5em; 
+    height: 150px;
+    margin: auto;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 110%;
+}
+
+/* when hover window is visible */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background: rgb(190,190,255);
+    background: linear-gradient(0deg, rgba(190,190,255,1) 29%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} 
+
+.container {
+    width: 335px;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+form {
+    margin-top: -20px;
+    overflow: hidden;
+    padding: 15px 25px 25px 0px;
+}
+
+button {
+    appearance: none;
+    display: inline-block;
+    width: 100%;
+    background-color: #3f89e7;
+    color: white;
+    padding: 10px 0px;
+    font-size: 14pt;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-width: 0px;
+    outline-width: 0px;
+    margin-top: 7px;
+}
+
+button:hover {
+    background-color: rgba(190,190,255,1);
+    color: white;
+    cursor: pointer;
+    border-color: rgba(190,190,255,1);
+}
+/*
+button:hover {
+    cursor: auto;
+    border: 1px solid purple;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}*/
+
+form i {
+    font-size: 100px;
+    color: #3f89e7;
+    float: left;
+    margin-right: 0px;
+}
+
+.container .form-outer{
+    width: 100%;
+    overflow: hidden;
+}
+
+.form-outer form{
+    display: flex;
+    width: 500%;
+}
+
+.form-outer form .page{
+    width: 20%;
+    transition: margin-left 0.5s ease-in-out;
+}
+
+div.title{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #3f89e7;
+    font-size: 20px;
+}
+
+div.title_sub{
+	text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #3f89e7;
+	font-size: 15px;
+}
+
+form .page .txt_field{
+	position:relative;
+    margin: 30px 0;
+    display: flex;
+}

@@ -1,0 +1,243 @@
+body{
+	margin: 0;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+
+/* header design */
+.top{
+	overflow: hidden;
+	background: rgb(190,190,255);
+    background: linear-gradient(120deg, rgba(190,190,255,1) 29%, rgba(0,212,255,1) 100%);
+	position: sticky;
+	top: 0;
+	width: 100%;
+	white-space: nowrap;
+	color: white;
+	z-index: 999;
+}
+
+div.top .top-content{
+	width: 80%;
+	margin:auto;
+}
+
+div.title{
+	float:left;
+	margin-left: 0px;
+	padding: 0;
+	margin-bottom: -10px;
+}
+
+div.button{
+	clear:both;
+}
+
+.top .button a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.top .button a:hover {
+	background-color: white;
+	color: #3f89e7;
+}
+
+.top .button a.active {
+	background-color: white;
+	color: #3f89e7;
+}
+
+.top-right {
+	float: right;
+	margin-top: 40px;
+}
+
+.top-right a {
+	float: left;
+	border-radius: 4px;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 2px 5px;
+}
+
+.top-right .line{
+	border: 0.1px solid white;
+    float: left;
+    margin-top: -4px;
+    margin-left: 10px;
+    height: 23px;
+    margin-right: 10px;
+    padding: 8px 0;
+}
+
+.top-right a:hover{
+	background-color: white;
+	color: #3f89e7;
+	transition-duration: 0.4s;
+}
+
+.footer {
+	width: 100%;
+	bottom: 0;
+	background: rgb(190,190,255);
+    background: linear-gradient(120deg, rgba(190,190,255,1) 29%, rgba(0,212,255,1) 100%);
+	text-align: center;
+}
+
+.footer img {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px; 
+}
+
+.footer_left {
+	border: 0px solid black;
+	margin: 0px 100px;
+	padding: 20px 0px;
+} 
+
+.footer-left p, a {
+	font-size: 11pt;
+}
+
+.header_tooltip {
+	position: relative;
+	display: inline-block;
+}
+  
+.header_tooltip .header_tooltiptext {
+	visibility: hidden;
+	width: fit-content;
+	background-color:  rgba(0, 0, 0, 0.7);
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 10px;
+	position: absolute;
+	z-index: 1;
+	top: 150%;
+}
+  
+.header_tooltip .header_tooltiptext::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent rgba(0, 0, 0, 0.6) transparent;
+}
+  
+.header_tooltip:hover .header_tooltiptext {
+	visibility: visible;
+}
+
+.dropbtn {
+	padding: 2px 5px;
+    background: none;
+    margin-top: -30px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    font-weight: 550;
+	border: 0px;
+    border-radius: 8px;
+	vertical-align: sub;
+}
+
+.drop_profile_image {
+	width: 35px;
+    height: auto;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+.dropbtn .material-icons{
+	font-size: 25px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.dropbtn span {
+	margin: 0 6px;
+    color: white;
+    vertical-align: sub;
+    font-size: 14px;
+}
+
+.dropbtn:hover {
+	background-color: white;
+	transition-duration: 0.4s;
+}
+
+.dropbtn:hover span {
+	color: #3f89e7;
+}
+
+/* DropDown List */
+.dropdown-content {
+    display: none;
+	background: white;
+    float: right;
+    margin-top: 10px;
+    width: 260px;
+    padding: 10px;
+    position: fixed;
+	border-radius: 1em;
+    left: 71.5%;
+    top: 10%;
+	box-shadow: 0px 0px 32px 4px rgba(0,0,0,0.3);
+}
+
+.dropdown-content img {
+    border: 2px solid white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.dropdown-content label {
+    font-size: 15px;
+    color: black;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.show {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-decoration: none;
+	width: 36.9%;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+	background-color: lightgray;
+	color: black;
+}
+
+.dropdown-content .material-icons {
+    vertical-align: middle;
+}
+
+.dropdown-content .icon_txt {
+    margin-left: 5px;
+}

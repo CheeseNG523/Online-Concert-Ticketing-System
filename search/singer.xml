@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maincontent>
+  <pages>
+    <singer>
+      <singer_name>Shila Amzah</singer_name>
+    </singer>
+    <singer>
+      <singer_name>Ailee</singer_name>
+    </singer>
+    <singer>
+      <singer_name>Beyoncé</singer_name>
+    </singer>
+    <singer>
+      <singer_name>Wei Li-an</singer_name>
+    </singer>
+    <singer>
+      <singer_name>Aimer</singer_name>
+    </singer>
+    <singer>
+      <singer_name>Jam Hsiao</singer_name>
+    </singer>
+    <singer>
+      <singer_name>LiSA</singer_name>
+    </singer>
+    <singer>
+      <singer_name>Kenny G</singer_name>
+    </singer>
+    <singer>
+      <singer_name>Joey Yung</singer_name>
+    </singer>
+    <singer>
+      <singer_name>Jay Chou</singer_name>
+    </singer>
+    <singer>
+      <singer_name>Taylor Swift</singer_name>
+    </singer>
+  </pages>
+</maincontent>

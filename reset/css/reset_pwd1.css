@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background: rgb(190,190,255);
+    background: linear-gradient(0deg, rgba(190,190,255,1) 29%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} 
+
+.container {
+    width: 335px;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+form {
+    margin-top: -20px;
+    overflow: hidden;
+    padding: 15px 25px 25px 25px;
+}
+
+label{
+    color: #3f89e7;
+    margin-top: 10px;
+}
+
+input[type="password"], input[type="text"] {
+    width: 81%;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #3f89e7;
+    border-radius: 4px;
+    float: left;
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
+    border-right: none;
+    outline: none;
+}
+
+.sbbtn {
+    appearance: none;
+    display: inline-block;
+    width: 100%;
+    background-color: #3f89e7;
+    color: white;
+    padding: 10px 0px;
+    font-size: 14pt;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 35px;
+    border: 0px;
+    outline: none;
+}
+
+.sbbtn:hover {
+    background-color: rgba(190,190,255,1);
+    color: white;
+    cursor: pointer;
+    border: 0px;
+}
+
+form i {
+    font-size: 100px;
+    color: #3f89e7;
+    float: left;
+    margin-right: 0px;
+}
+
+.password_visible{
+    position: relative;
+    display: inline-block;
+    border: 1px solid #3f89e7;
+    border-radius: 0px 5px 5px 0;
+    padding-top: 5px;
+    padding-bottom: 4.5px;
+}
+
+.password_visible input[type = "checkbox"]{
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    width: 29px;
+    height: 43px;
+    margin: 2px 0px;
+    padding: 0;
+    top: 0px;
+}
+
+.icon-box2{
+    display: none;
+}
+
+.icon-box2, .icon-box1{
+    padding-top: 2px;
+    padding-right: 0.5px;
+}
+
+.icon-box2:hover, .icon-box1:hover{
+    cursor: pointer;
+}
+
+.password_visible input[type = "checkbox"]:checked ~ .icon-box2{
+    display: block;
+}
+.password_visible input[type = "checkbox"]:checked ~ .icon-box1{
+    display: none;
+}

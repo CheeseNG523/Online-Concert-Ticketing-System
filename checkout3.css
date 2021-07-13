@@ -1,0 +1,141 @@
+.checkout-container {
+    display: block;
+    margin: 20px 160px;
+    min-height: 375px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.checkout-container i {
+    vertical-align: sub;
+    margin-right: 8px;
+}
+
+.checkout-container img {
+    float: left; 
+    width: 550px; 
+    height: 300px;
+}
+
+.checkout-container table {
+    width: 100%;
+}
+
+.concert-details {
+    height: 300px; 
+    display: block; 
+    overflow: hidden; 
+    text-align: left; 
+    padding-left: 30px;
+}
+
+.concert-details th, td {
+    padding: 10px;
+}
+
+form {
+    margin: 10px 0px; 
+    padding: 0px 20px 20px; 
+    text-align: left;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: rgb(245, 245, 255);
+}
+
+form div {
+    padding-right: 40px;
+}
+
+form label {
+    text-transform: uppercase;
+}
+
+form input[type='submit'], input[type='button'] {
+	font-size: 14pt;
+	color: white;
+    border: none;
+}
+
+form input[type='submit'] {
+    background-color: #3f89e7;
+}
+
+form input[type='submit']:hover:enabled {
+    background-color: rgba(190, 190, 255, 1);
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+form input[type='submit']:hover:disabled {
+    background-color: #3f89e7;
+    cursor: not-allowed;
+}
+
+form input[type='button'] {
+    background-color: rgba(246, 91, 81, 1);
+}
+
+form input[type='button']:hover {
+    background-color: rgba(255, 158, 0, 1);
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.half-left {
+    grid-column: 1/4;
+}
+
+.half-right {
+    grid-column: 4/6;
+}
+
+.exp_date {
+    grid-column: 4/5;
+}
+
+.card_exp {
+    border: 2px solid rgba(133, 193, 233, 1);
+    width: fit-content;
+    background: white;
+    border-radius: 1em;
+    padding: 3px 10px;
+}
+
+.card_exp:hover {
+    cursor: pointer;
+    border: 2px solid purple;
+    transition-duration: 0.4s;
+}
+
+.exp_date select {
+    position: relative;
+    border: none;
+    outline: none;
+	background-color: transparent;
+	padding: 5px 5px;
+	font-family: 'Poppins', sans-serif;
+}
+
+form input {
+    padding: 10px; 
+    border-radius: 1em; 
+    width: 100%;
+    border: 2px solid rgba(133, 193, 233, 1);
+    outline: none;
+}
+
+form input[type='text']:hover:enabled {
+    cursor: text;
+    border: 2px solid purple;
+    transition-duration: 0.4s;
+}
