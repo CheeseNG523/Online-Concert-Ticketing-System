@@ -12,7 +12,7 @@ THE PROJECT IS PREPARED FOR **FACULTY OF INFORMATION SCIENCE AND TECHNOLOGY MULT
 An online concert ticketing system is a system that benefits both customers and organizers where customers are able to comprehend the detail of the music concert and organizers are able to have a bird’s eye view of the ticket purchasing process made by their customers. The purpose of us creating this system is to provide convenience for customers when they are purchasing a concert ticket. By using our system, users are able to look for any kind of concert which comes from different countries as it generalizes all of the information and upcoming events’ detail. Moreover, in order to build a more secure environment for the customers and organizers, our system helps to integrate with logistical, payment support to secure both parties’ legal rights. The goal of this project is to come up with a friendly user interface where provides an easy, flexible and safe way for all the music lovers to complete the process of purchasing tickets to see and hear their lovely idol’s performance and buy commemorative merchandise as a memory or support their idol.
 
 # Prerequisite
-- Install [XAMPP](https://www.apachefriends.org/index.html) in local device.
+- Installed [XAMPP](https://www.apachefriends.org/index.html) in local device.
 
 # How it work
 - Download the files from Git.
