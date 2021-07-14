@@ -13,7 +13,7 @@ THE PROJECT IS PREPARED FOR **FACULTY OF INFORMATION SCIENCE AND TECHNOLOGY MULT
 
 ## Individual Report
 
-- [NG TIAN HOE.pdf](https://github.com/CheeseNG523/Online-Concert-Ticketing-System/files/6813999/DCP5521_FYP_FINAL_REPORT.Online.Concert.Ticketing.System.-.Individual.1191200726.NG.TIAN.HOE.pdf)
+- [Ng Tian Hoe.pdf](https://github.com/CheeseNG523/Online-Concert-Ticketing-System/files/6813999/DCP5521_FYP_FINAL_REPORT.Online.Concert.Ticketing.System.-.Individual.1191200726.NG.TIAN.HOE.pdf)
 - [Kwang Chee Seng.pdf](https://github.com/CheeseNG523/Online-Concert-Ticketing-System/files/6813989/DCP5521_FYP_FINAL_REPORT.Online.Concert.Ticketing.System.-.Individual.1191201102.Kwang.Chee.Seng.pdf)
 - [Kong Kein Wah.pdf](https://github.com/CheeseNG523/Online-Concert-Ticketing-System/files/6814002/DCP5521_FYP_FINAL_REPORT.Online.Concert.Ticketing.System.-.Individual.1191201503.Kong.Kein.Wah.pdf)
 
