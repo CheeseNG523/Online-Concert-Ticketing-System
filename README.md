@@ -2,6 +2,11 @@
 
 THE PROJECT IS PREPARED FOR **FACULTY OF INFORMATION SCIENCE AND TECHNOLOGY MULTIMEDIA UNIVERSITY** IN PARTIAL FULFILLMENT FOR **DIPLOMA IN INFORMATION TECHNOLOGY FACULTY OF INFORMATION SCIENCE AND TECHNOLOGY MULTIMEDIA UNIVERSITY** on FEBRUARY 2021.
 
+## Authors
+- Ng Tian Hoe
+- Kwang Chee Seng
+- Kong Kein Wah
+
 ## Final Report
 
 [Online Concert Ticketing System.pdf](https://github.com/CheeseNG523/Online-Concert-Ticketing-System/files/6813993/DCP5521_FYP_FINAL_REPORT.Online.Concert.Ticketing.System.-.GROUP.pdf)
@@ -11,14 +16,6 @@ THE PROJECT IS PREPARED FOR **FACULTY OF INFORMATION SCIENCE AND TECHNOLOGY MULT
 - [NG TIAN HOE.pdf](https://github.com/CheeseNG523/Online-Concert-Ticketing-System/files/6813999/DCP5521_FYP_FINAL_REPORT.Online.Concert.Ticketing.System.-.Individual.1191200726.NG.TIAN.HOE.pdf)
 - [Kwang Chee Seng.pdf](https://github.com/CheeseNG523/Online-Concert-Ticketing-System/files/6813989/DCP5521_FYP_FINAL_REPORT.Online.Concert.Ticketing.System.-.Individual.1191201102.Kwang.Chee.Seng.pdf)
 - [Kong Kein Wah.pdf](https://github.com/CheeseNG523/Online-Concert-Ticketing-System/files/6814002/DCP5521_FYP_FINAL_REPORT.Online.Concert.Ticketing.System.-.Individual.1191201503.Kong.Kein.Wah.pdf)
-
-
-
-
-## Authors
-- Ng Tian Hoe
-- Kwang Chee Seng
-- Kong Kein Wah
 
 ## Abstract
 
