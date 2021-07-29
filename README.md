@@ -25,8 +25,7 @@ An online concert ticketing system is a system that benefits both customers and 
 - Installed [XAMPP](https://www.apachefriends.org/index.html) in local device.
 
 # How it work
-- Download the files from Git.
-- Move the files into `..\xampp\htdocs`.
+- Clone the files into `..\xampp\htdocs\[your_folder_name]`.
 - Open XAMPP Control Panel and start Apache and MySQL.
   ![image](https://user-images.githubusercontent.com/80963922/125410006-083f7f00-e3ef-11eb-89f8-ce1c6ea4d855.png)
 - In browser, open [phpMyAdmin](http://localhost/phpmyadmin/).
